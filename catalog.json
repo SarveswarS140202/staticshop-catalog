@@ -22,9 +22,22 @@
     {"id":"prod-9a1e4d15-016","name":"Elite Item 16","category":"clothing","price":379.53,"stock":150,"rating":2.1}
   ],
   "aggregations": {
-    "books": {
-      "count": 6,
-      "inventoryValue": 193774.54
-    }
+  "books": {
+    "count": 6,
+    "inventoryValue": 193774.54
+  },
+  "clothing": {
+    "count": 7,
+    "inventoryValue": 147487.83
+  },
+  "electronics": {
+    "count": 2,
+    "inventoryValue": 28327.09
+  },
+  "sports": {
+    "count": 1,
+    "inventoryValue": 6994.26
+  }
+}
   }
 }
